@@ -1,0 +1,95 @@
+h1 {
+	color: black;
+	font-family: Herculanum;
+}
+
+h2, h3 {
+	font-family: Herculanum;
+}
+
+body {
+	background-color: ##EBF7FE;
+	text-align: center;
+	font-family: Futura;
+}
+
+p{
+	font-size: 20px;
+}
+
+a{
+	text-decoration: none;
+	font-family: Futura;
+	color: #444D50;
+	transition:0.5s;
+}
+
+a:hover{
+	color: #FF5733;
+	background-color: blue
+
+} 
+
+ul {
+	list-style: none;
+	padding: 0;
+
+}
+
+li{
+	display: inline-block;
+}
+
+Custom Class Design
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+
+.card-white {
+
+  background: white;
+  padding: 30px;
+  border: 1px solid lightgrey;
+  box-shadow: 0px 10px 35px rgba(0,0,0,0.1);
+  margin: 30px 60px;
+  text-align: center;
+  border-radius: 4px; 
+
+}  
+.img-circle {
+	border-radius: 50%;
+}
+
+.btn-grey {
+	color: black;
+	background-color: rgba(183,183,183,0.5);
+	padding: 10px 15px;
+	border-radius: 4px;
+}
+
+.btn-grey:hover {
+	background-color: black;
+	color: white;
+}
+
+
+.list-inline {
+ color: black;
+	background-color: rgba(183,183,183,0.5);
+	padding: 10px 15px;
+	border-radius: 4px;
+}
+
+.list-inline:hover {
+	background-color: black;
+	color: white;
+}
+
+
+
+
+
+
